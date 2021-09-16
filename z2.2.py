@@ -14,4 +14,3 @@ def upload(file_list, token_):
         print("ссылка не получена")
     if upload_.status_code == 201:
         print("Success")
-upload("test.txt","AQAAAABWrP_vAADLW4E1JGNgw0CnrfvS9Q-wRGQ")
